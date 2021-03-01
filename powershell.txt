@@ -1,0 +1,18 @@
+1. A parancs lekérdezi a PowerShell verziót
+2. A tagokat kérdeztük le
+3. A szolgáltatásokat jeleníti meg a Get-Service parancs
+4. A C meghajtón található könyvtárakat ill. fájlokat kérdezi le a Get-ChildItem parancs
+5. Get-Alias a parancsok rövidített neveit adja vissza eredményül
+6. Processz készítés
+7.Listázást végez
+8. get-Process | sort-object name segítségévrl név szerint tudjuk rendezni az objektumokat
+9. Windows idő lekérdezése a Get-Service |Where-Object { $_.name -eq "w32time" } segítségévrl 
+10. Nevek lekérdezése 
+11. Állapot szerint csoportosítottuk az objektumokat a Get-Service | Group-Object status segítségével
+12. Megszámolja az objektumokat a Get-Process | ForEach-Object parancs
+13. Objektumok megszámolása különböző kritériumok szerint (Min, max, átlag, összegzés)
+14. Tagok lekérdezése(ezt nem igazán értem)
+15. "szöveg" változó létrehozása és műveletek
+16. További műveletek a szöveg változóra
+17. Átirányítás
+18. Beolvasás (itt valami nem volt jó vagy elírtam és nem vettem észre)
